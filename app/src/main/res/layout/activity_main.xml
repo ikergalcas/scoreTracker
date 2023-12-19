@@ -6,6 +6,38 @@
              android:layout_height="match_parent">
 
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nº"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/nota"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/maxNota"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/peso"
+        android:textSize="16sp" />
+
     <EditText
         android:id="@+id/editText"
         android:layout_width="173dp"
@@ -23,13 +55,51 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/RecyclerView_subjects"
-        android:layout_width="282dp"
-        android:layout_height="429dp"
-        android:layout_marginTop="220dp"
+        android:layout_width="348dp"
+        android:layout_height="405dp"
+        android:layout_marginTop="248dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/liner_layout"
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:onClick="subject_clicked"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/RecyclerView_subjects"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/subjectName"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/asignatura"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/subjectScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/nota"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/subjectMax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/maxNota"
+            android:textSize="18sp" />
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView_appName"

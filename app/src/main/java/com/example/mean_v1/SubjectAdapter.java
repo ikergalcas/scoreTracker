@@ -38,8 +38,6 @@ public class SubjectAdapter extends RecyclerView.Adapter<SubjectAdapter.ViewHold
         holder.subjectName.setText(subject.getName());
         holder.subjectScore.setText(String.valueOf(subject.getMean_score()));
         holder.subjectMax.setText(String.valueOf(subject.getMax()));
-        double total = subject.getMean_score()*10/ subject.getMax();
-        holder.subjectTotal.setText(String.valueOf(total));
 
         holder.itemView.setOnClickListener(v -> {
             if (listener != null) {
@@ -67,7 +65,6 @@ public class SubjectAdapter extends RecyclerView.Adapter<SubjectAdapter.ViewHold
             subjectName = itemView.findViewById(R.id.subjectName);
             subjectScore = itemView.findViewById(R.id.subjectScore);
             subjectMax = itemView.findViewById(R.id.subjectMax);
-            subjectTotal = itemView.findViewById(R.id.subjectTotal);
         }
     }
 }

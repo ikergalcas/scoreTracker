@@ -5,8 +5,9 @@
     <string name="reset">Reset DB</string>
     <string name="añadirNota">Add score</string>
     <string name="nota">Score</string>
-    <string name="maxNota">Max Score</string>
+    <string name="maxNota">Max</string>
     <string name="peso">Weight</string>
     <string name="badInput">Please introduce a subject</string>
     <string name="atras">Go back</string>
+    <string name="asignatura">Subject Name</string>
 </resources>
