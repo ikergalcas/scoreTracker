@@ -6,7 +6,7 @@
     <string name="reset">Resetear BD</string>
     <string name="añadirNota">Añadir nota</string>
     <string name="nota">Nota</string>
-    <string name="maxNota">Nota max</string>
+    <string name="maxNota">Nota</string>
     <string name="peso">Peso</string>
     <string name="badInput">Por favor introduce una asignatura</string>
     <string name="atras">Volver</string>
