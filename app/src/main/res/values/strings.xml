@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ScoreTracker</string>
+    <string name="nueva_asignatura">New subject</string>
+    <string name="añadir">Add</string>
+    <string name="reset">Reset DB</string>
+    <string name="añadirNota">Add score</string>
+    <string name="nota">Score</string>
+    <string name="maxNota">Max Score</string>
+    <string name="peso">Weight</string>
+    <string name="badInput">Please introduce a subject</string>
+    <string name="atras">Go back</string>
+</resources>

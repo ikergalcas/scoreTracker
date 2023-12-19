@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalculaNotas</string>
+    <string name="nueva_asignatura">Nueva asignatura</string>
+    <string name="añadir">Añadir</string>
+    <string name="reset">Resetear BD</string>
+    <string name="añadirNota">Añadir nota</string>
+    <string name="nota">Nota</string>
+    <string name="maxNota">Nota max</string>
+    <string name="peso">Peso</string>
+    <string name="badInput">Por favor introduce una asignatura</string>
+    <string name="atras">Volver</string>
+</resources>
