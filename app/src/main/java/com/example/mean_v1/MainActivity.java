@@ -170,6 +170,7 @@ public class MainActivity extends AppCompatActivity {
             values.put(AppContract.DictEntry.COLUMN_NAME_SUBJECT, subjects[i]);
             db.insert(AppContract.DictEntry.TABLE_NAME, null, values);
         }
+        Toast.makeText(this,R.string.reset, Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
